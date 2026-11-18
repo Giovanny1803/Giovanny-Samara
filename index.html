@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#f7dce7">
+<title>Giovanny & Samara | Nuestra historia</title>
+<style>
+:root{--rose:#c66b8e;--ink:#563b49;--cream:#fff9f7;--pink:#f8e4eb}
+*{box-sizing:border-box}html{scroll-behavior:smooth}
+body{margin:0;background:var(--cream);color:var(--ink);font-family:Georgia,'Times New Roman',serif}
+.hero{min-height:92vh;display:grid;place-items:center;text-align:center;padding:40px 20px;background:linear-gradient(135deg,#f6dce7,#fff3ee 55%,#e8dff4)}
+.hero-inner{max-width:760px}.eyebrow{letter-spacing:.25em;text-transform:uppercase;font:12px Arial,sans-serif;color:#986078}
+h1{font-size:clamp(42px,9vw,82px);font-weight:400;margin:18px 0;color:#8c4e6b}
+.subtitle{font-size:20px;line-height:1.7}.heart{font-size:34px;color:var(--rose);margin:20px}
+nav{position:sticky;top:0;background:#fffaf7eF;backdrop-filter:blur(10px);display:flex;justify-content:center;gap:22px;flex-wrap:wrap;padding:14px;z-index:5;border-bottom:1px solid #f0dce4}
+nav a{color:#80546a;text-decoration:none;font:12px Arial,sans-serif;letter-spacing:.08em}
+section{max-width:900px;margin:auto;padding:76px 22px;text-align:center}
+h2{font-weight:400;font-size:clamp(30px,5vw,44px);color:#985a75;margin:0 0 18px}
+.lead{font-size:18px;line-height:1.8;max-width:680px;margin:0 auto}
+.photos{display:grid;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));gap:16px;margin-top:30px}
+.photo{min-height:250px;border-radius:18px;background:linear-gradient(145deg,#efd4df,#f9ecee);display:grid;place-items:center;padding:18px;color:#8d6175;font:14px Arial,sans-serif;overflow:hidden}
+.photo img{width:100%;height:100%;min-height:250px;object-fit:cover;border-radius:12px}
+.letter{background:white;border:1px solid #f0dce4;border-radius:22px;padding:clamp(24px,5vw,48px);text-align:left;line-height:1.9;font-size:18px;box-shadow:0 12px 40px #9b647414}
+.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(190px,1fr));gap:14px;margin-top:28px}
+.card{background:white;border:1px solid #f0dce4;border-radius:16px;padding:24px;font-size:17px;line-height:1.5}
+.ticket{border:1px dashed #c77b98;background:#fff;padding:22px;border-radius:16px}
+button{border:0;border-radius:30px;padding:13px 24px;background:var(--rose);color:white;font-size:15px;cursor:pointer;margin:8px}
+button.secondary{background:#ead5df;color:#70485b}
+#answer{min-height:28px;color:#985a75;font-size:20px;margin-top:15px}
+footer{text-align:center;padding:50px 20px;background:#f7e6ed;color:#86566d}
+.small{font:12px Arial,sans-serif;opacity:.75}
+@media(max-width:480px){nav{gap:12px}nav a{font-size:10px}}
+</style>
+</head>
+<body>
+<header class="hero" id="inicio">
+ <div class="hero-inner">
+  <div class="eyebrow">Un pequeño rincón para nosotros</div>
+  <div class="heart">♥</div>
+  <h1>Giovanny &amp; Samara</h1>
+  <p class="subtitle">Nuestra historia, nuestros recuerdos y todos esos momentos que hacen especial este camino.</p>
+  <a href="#historia"><button>Entrar a nuestra historia</button></a>
+  <p class="small">Hecho con cariño</p>
+ </div>
+</header>
+<nav>
+ <a href="#historia">NUESTRA HISTORIA</a><a href="#recuerdos">RECUERDOS</a><a href="#carta">UNA CARTA</a><a href="#planes">PLANES</a><a href="#vales">VALES</a><a href="#sorpresa">SORPRESA</a>
+</nav>
+<section id="historia">
+ <div class="eyebrow">Capítulo uno</div><h2>Nuestra historia</h2>
+ <p class="lead">Hay personas que llegan y convierten los días normales en recuerdos especiales. Este espacio es para celebrar lo que hemos compartido y todo lo bonito que todavía nos espera.</p>
+</section>
+<section id="recuerdos">
+ <div class="eyebrow">Pequeños instantes, grandes recuerdos</div><h2>Nuestros recuerdos</h2>
+ <p class="lead">Reemplaza estos espacios por sus fotografías favoritas. En el archivo encontrarás cómo cambiar las imágenes.</p>
+ <div class="photos">
+  <div class="photo">📷<br>Agrega aquí la primera foto</div>
+  <div class="photo">📷<br>Agrega aquí otra foto especial</div>
+  <div class="photo">📷<br>Un recuerdo para guardar</div>
+ </div>
+</section>
+<section id="carta">
+ <div class="eyebrow">Unas palabras para ti</div><h2>Una carta especial</h2>
+ <div class="letter">
+  <p>Samara:</p>
+  <p>Quería crear este pequeño lugar para recordarte lo importante que eres y lo especiales que pueden ser las cosas sencillas cuando se comparten. Gracias por cada conversación, cada sonrisa y cada recuerdo.</p>
+  <p>Ojalá sigamos sumando momentos bonitos, aprendiendo y disfrutando cada etapa.</p>
+  <p>Con cariño,<br><strong>Giovanny</strong> ♥</p>
+ </div>
+</section>
+<section id="planes">
+ <div class="eyebrow">Lo que nos falta vivir</div><h2>Planes juntos</h2>
+ <div class="cards">
+  <div class="card">🌅<br>Ver un atardecer especial</div>
+  <div class="card">🍿<br>Una noche de películas</div>
+  <div class="card">🧳<br>Conocer un lugar nuevo</div>
+  <div class="card">📸<br>Tomarnos muchas fotos</div>
+ </div>
+</section>
+<section id="vales">
+ <div class="eyebrow">Canjeables por momentos</div><h2>Vales de regalo</h2>
+ <div class="cards">
+  <div class="ticket">🎟️<h3>Vale por una cita</h3><p>Un plan elegido entre los dos.</p></div>
+  <div class="ticket">🎟️<h3>Vale por un postre</h3><p>Algo dulce para compartir.</p></div>
+  <div class="ticket">🎟️<h3>Vale por una aventura</h3><p>Un día para hacer algo diferente.</p></div>
+ </div>
+</section>
+<section id="sorpresa">
+ <div class="eyebrow">Antes de terminar...</div><h2>Una pequeña pregunta</h2>
+ <p class="lead">¿Te gustaría seguir creando recuerdos juntos?</p>
+ <button onclick="document.getElementById('answer').textContent='¡Entonces que vengan muchos momentos bonitos! ♥'">¡Sí, claro!</button>
+ <button class="secondary" onclick="document.getElementById('answer').textContent='La sorpresa sigue aquí: siempre habrá espacio para más recuerdos. ♥'">¡Quiero ver la sorpresa!</button>
+ <div id="answer" aria-live="polite"></div>
+</section>
+<footer><div class="heart">♥</div><h2>Lo mejor de nuestra historia aún está por escribirse.</h2><p>Giovanny &amp; Samara</p><p class="small">Una página hecha con cariño.</p></footer>
+</body>
+</html>
